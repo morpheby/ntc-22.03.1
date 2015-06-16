@@ -49,6 +49,7 @@ public:
     static RegisterInfo<int> N;
 
     static RegisterInfo<int> D_In;
+    static RegisterInfo<int> D_Out;
     static RegisterInfo<int> Ind_Delay;
 
     static RegisterInfo<int> profile;

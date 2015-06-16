@@ -112,6 +112,7 @@ int main(int argc, char *argv[])
 
     QObject::connect(&window, &MainWindow::requestControllerSet, &pdpoller, [&]() {
         try {
+            api->writeRegister(PD::Registers::D_Out, 1);
         } catch(...) {
 
         }

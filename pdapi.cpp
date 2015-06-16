@@ -36,7 +36,7 @@ RegisterInfo<int> Registers::n_c = {"n_c", "", 38, 1};
 RegisterInfo<int> Registers::N = {"N", "", 40, 1};
 
 RegisterInfo<int> Registers::D_In = {"D_In", "", 41, 1};
-//    //int D_Out __attribute__ ((address(RAM_START_ADDRESS+84)));          //REG 42
+RegisterInfo<int> Registers::D_Out = {"D_Out", "", 42, 1};
 RegisterInfo<int> Registers::Ind_Delay = {"Ind_Delay", "", 43, 1};
 
 RegisterInfo<int> Registers::profile = {"profile", "", 44, 1};
